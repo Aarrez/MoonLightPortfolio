@@ -1,0 +1,19 @@
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fab:hover {
+    color: #008000;
+}
+.fab {
+    color: #ffffff;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+.contact-title h1{
+  color: #fff;
+}
