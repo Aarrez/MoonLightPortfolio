@@ -137,7 +137,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="img/first_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
+                                    <img href="img/first_big_item.jpg"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number One</h2>
                                             <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
@@ -152,7 +152,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="img/second_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
+                                    <img href="img/second_big_item.jpg"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number Two</h2>
                                             <p>Donec eget dictum tellus. Curabitur a interdum diam. Nulla vestibulum porttitor porta.</p>
@@ -167,7 +167,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="img/third_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
+                                    <img href="img/third_big_item.jpg"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number Three</h2>
                                             <p>Cras varius dolor et augue fringilla, eu commodo sapien iaculis.</p>
@@ -182,7 +182,7 @@
                         <div class="col-md-6 col-sm-4">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="img/fourth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
+                                    <img href="img/fourth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number Four</h2>
                                             <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum.</p>
@@ -194,6 +194,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 col-sm-4 filler">
                             <!--<div class="item">
                                 <div class="thumb">
