@@ -1,7 +1,7 @@
-.social-icons{
-  padding-left: 100px;
-  font-size: 36px;
+.social-icons {
+  font-size: 50px;
   cursor: pointer;
+  margin-left: 200px;
 
 }
 .fab:hover {
@@ -18,8 +18,4 @@
 
 .contact-title h1{
   color: #fff;
-}
-
-a{
-  color: red;
 }
