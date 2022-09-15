@@ -19,6 +19,10 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+    <?php
+    $colsave3= "col-md-6";
+    $colsave4= "col-md-6 col-sm-4";
+     ?>
 <body>
     <div class="sequence">
       <div class="seq-preloader">
@@ -92,16 +96,16 @@
                             <div class="first-section">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class=<?= $colsave3 ?> content="Text area" >
                                             <div class="left-content">
-                                                <h2>Quisque commodo quam</h2>
+                                                <h2>The Joy Of Fishing</h2>
                                                 <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
-                                                <div class="main-btn"><a href="#4">Continue Reading</a></div>
+                                                <!--<div class="main-btn"><a href="#4">Continue Reading</a></div>-->
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class=<?= $colsave3 ?> content="Image area">
                                             <div class="right-image">
-                                                <img src="img/first_service.jpg" alt="first service">
+                                                <img src="img/theJoyOfFishing.png" alt="first service">
                                             </div>
                                         </div>
                                     </div>
@@ -110,16 +114,15 @@
                             <div class="second-section">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class=<?= $colsave3 ?> content="Image area">
                                             <div class="left-image">
                                                 <img src="img/second_service.jpg" alt="second service">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class=<?= $colsave3 ?> content="Text area">
                                             <div class="right-content">
-                                                <h2>Maecenas eu purus eu sapien</h2>
+                                              <h2>Maecenas eu purus eu sapien</h2>
                                                 <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                                                <div class="main-btn"><a href="#4">Continue Reading</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +137,7 @@
             <div class="content fourth-content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-6 col-sm-4">
+                        <div class=<?= $colsave4 ?>>
                             <div class="item">
                                 <div class="thumb">
                                     <img href="img/first_big_item.jpg"><div class="hover-effect">
@@ -149,7 +152,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-4">
+                        <div class=<?= $colsave4 ?>>
                             <div class="item">
                                 <div class="thumb">
                                     <img href="img/second_big_item.jpg"><div class="hover-effect">
@@ -164,7 +167,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-4">
+                        <div class=<?= $colsave4 ?>>
                             <div class="item">
                                 <div class="thumb">
                                     <img href="img/third_big_item.jpg"><div class="hover-effect">
@@ -179,7 +182,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-4">
+                        <div class=<?= $colsave4 ?>>
                             <div class="item">
                                 <div class="thumb">
                                     <img href="img/fourth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
@@ -195,35 +198,10 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-sm-4 filler">
-                            <!--<div class="item">
-                                <div class="thumb">
-                                    <a href="img/fifth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
-                                        <div class="hover-content">
-                                            <h2>Fifth Item</h2>
-                                            <p>Donec commodo, ex nec rutrum venenatis, nisi nisl malesuada magna.</p>
-                                        </div>
-                                    </div></a>
-                                    <div class="image">
-                                        <img src="img/fifth_item.jpg">
-                                    </div>
-                                </div>
-                            </div>-->
+                        <div class= "col-md-6 col-sm-4 filler">
                         </div>
-                        <div class="col-md-6 col-sm-4 filler">
-                            <!--<div class="item">
-                                <div class="thumb">
-                                    <a href="img/sixth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
-                                        <div class="hover-content">
-                                            <h2>Sixth Item</h2>
-                                            <p>Maecenas dapibus neque sed nisl consectetur, id semper nisi egestas.</p>
-                                        </div>
-                                    </div></a>
-                                    <div class="image">
-                                        <img src="img/sixth_item.jpg">
-                                    </div>
-                                </div>
-                            </div>-->
+                        <div class= "col-md-6 col-sm-4 filler">
+
                         </div>
                     </div>
                 </div>
@@ -330,6 +308,7 @@
     }
     </script>
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
