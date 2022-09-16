@@ -23,6 +23,10 @@
     require_once 'dbConfig.php';
     $colsave3= "col-md-6";
     $colsave4= "col-md-6 col-sm-4";
+    $p1 ="http://www.google.com";
+    $p2 ="#";
+    $p3 ="#";
+    $p4 ="#";
      ?>
 <body>
     <div class="sequence">
@@ -49,7 +53,7 @@
         <div class="slides">
           <div class="slide" id="1">
             <div class="content first-content">
-              <div class="container-fluid">
+              <div class="container-fluid" id="inCon1">
                   <div class="col-md-3">
                     <div class="author-image"><img src="img/stones.JPG" alt="Author Image"></div>
                   </div>-->
@@ -92,6 +96,9 @@
           <div class="slide" id="3">
             <div class="content third-content">
                 <div class="container-fluid">
+                  <div class="exHead">
+                    <h1>Title</h1>
+                  </div>
                     <div class="col-md-12">
                         <div class="row">
                             <div class="first-section">
@@ -99,11 +106,12 @@
                                     <div class="row">
                                         <div class=<?= $colsave3 ?> content="Text area" >
                                             <div class="left-content">
-                                                <h2>The Joy Of Fishing</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum.
-                                                  Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus.
-                                                  In et eros urna. Suspendisse potenti.
-                                                  Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
+                                                <h2>Previous experience</h2>
+                                                  <p>
+                                                  I have acquired some knowlage form Indegame develepment course.
+                                                  Before I studied a tech program in high school where I learned the baseics of
+                                                  codeing and the difference between web developemnt and game development.
+                                                  </p>
                                             </div>
                                         </div>
                                         <div class=<?= $colsave3 ?> content="Image area">
@@ -142,65 +150,72 @@
                     <div class="row">
                         <div class=<?= $colsave4 ?>>
                             <div class="item">
+                              <a href=<?= $p1 ?>>
                                 <div class="thumb">
-                                    <img href="img/first_big_item.jpg"><div class="hover-effect">
+                                    <div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number One</h2>
                                             <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
                                         </div>
-                                    </div></a>
+                                    </div>
                                     <div class="image">
-                                        <img src="img/first_item.jpg">
+                                        <img src="img/first_big_item.jpg">
                                     </div>
                                 </div>
+                              </a>
                             </div>
                         </div>
-                        <div class=<?= $colsave4 ?>>
+                        <div class=<?= $colsave4; ?>>
                             <div class="item">
+                              <a href=<?= $p2?>>
                                 <div class="thumb">
-                                    <img href="img/second_big_item.jpg"><div class="hover-effect">
+                                    <div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number Two</h2>
                                             <p>Donec eget dictum tellus. Curabitur a interdum diam. Nulla vestibulum porttitor porta.</p>
                                         </div>
                                     </div></a>
                                     <div class="image">
-                                        <img src="img/second_item.jpg">
+                                        <img src="img/second_big_item.jpg">
                                     </div>
                                 </div>
+                              </a>
                             </div>
                         </div>
-                        <div class=<?= $colsave4 ?>>
+                        <div class=<?= $colsave4; ?>>
                             <div class="item">
+                              <a href=<?= $p3 ?>>
                                 <div class="thumb">
-                                    <img href="img/third_big_item.jpg"><div class="hover-effect">
+                                    <div class="hover-effect">
                                         <div class="hover-content">
                                             <h2>Number Three</h2>
                                             <p>Cras varius dolor et augue fringilla, eu commodo sapien iaculis.</p>
                                         </div>
                                     </div></a>
                                     <div class="image">
-                                        <img src="img/third_item.jpg">
+                                        <img src="img/third_big_item.jpg">
                                     </div>
                                 </div>
+                              </a>
                             </div>
                         </div>
-                        <div class=<?= $colsave4 ?>>
+                        <div class=<?= $colsave4; ?>>
                             <div class="item">
+                              <a href=<?= $p4 ?>>
                                 <div class="thumb">
-                                    <img href="img/fourth_big_item.jpg" data-lightbox="image-1"><div class="hover-effect">
-                                        <div class="hover-content">
-                                            <h2>Number Four</h2>
-                                            <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum.</p>
-                                        </div>
-                                    </div></a>
-                                    <div class="image">
-                                        <img src="img/fourth_item.jpg">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <h2>Number Four</h2>
+                                        <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum.</p>
                                     </div>
                                 </div>
+                                <div class="image">
+                                  <img src="img/fourth_big_item.jpg">
+                                </div>
+                                </div>
+                              </a>
                             </div>
                         </div>
-
                         <div class= "col-md-6 col-sm-4 filler">
                         </div>
                         <div class= "col-md-6 col-sm-4 filler">
@@ -216,12 +231,12 @@
                   <div class="navbar contact-title">
                     <h1>Here you can die</h1>
                   </div>
-                  <div class="col-md-6">
+                  <!--<div class="col-md-6">
                       <div id="map">
                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52769.726122148626!2d22.112341658604677!3d65.5867168401385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f6314d2e8b867%3A0x4034506de8c8620!2zTHVsZcOl!5e0!3m2!1ssv!2sse!4v1663164701280!5m2!1ssv!2sse" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
                       </div>
-                  </div>
-                  <div class="col-md-6">
+                  </div>-->
+                  <!--<div class="col-md-6">
                       <form id="contact" action="" method="post">
                           <div class="row">
                               <div class="col-md-12">
@@ -251,14 +266,13 @@
                               </div>
                           </div>
                       </form>
-                  </div>
+                  </div>-->
                 </div>
             </div>
           </div>
         </div>
         <div class="footer">
           <div class="content">
-              <p>Copyright &copy; 2020 Company Name . Template: <a rel="nofollow" href="https://templatemo.com/tm-512-moonlight">Moonlight</a></p>
           </div>
         </div>
 
