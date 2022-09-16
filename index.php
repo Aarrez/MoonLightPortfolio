@@ -20,6 +20,7 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <?php
+    require_once 'dbConfig.php';
     $colsave3= "col-md-6";
     $colsave4= "col-md-6 col-sm-4";
      ?>
@@ -99,8 +100,10 @@
                                         <div class=<?= $colsave3 ?> content="Text area" >
                                             <div class="left-content">
                                                 <h2>The Joy Of Fishing</h2>
-                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
-                                                <!--<div class="main-btn"><a href="#4">Continue Reading</a></div>-->
+                                                <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum.
+                                                  Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus.
+                                                  In et eros urna. Suspendisse potenti.
+                                                  Pellentesque commodo, neque nec molestie tempus, purus ante feugiat augue.</p>
                                             </div>
                                         </div>
                                         <div class=<?= $colsave3 ?> content="Image area">
